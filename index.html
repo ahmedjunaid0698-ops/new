@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AutoLink | Smart Vehicle Communication</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>◉</span> AutoLink
+    </div>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#app">Platform</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Live Demo</a>
+        <a href="#how">How It Works</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <button class="nav-btn" onclick="goToDemo()">
+        Try Demo
+    </button>
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </button>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            SMART VEHICLE COMMUNICATION
+        </div>
+
+        <h1>
+            Connect Vehicles.
+            <span>Protect Privacy.</span>
+        </h1>
+
+        <p>
+            AutoLink creates a smarter way for people to communicate
+            with vehicle owners using QR-based identification,
+            masked messaging and secure communication.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="primary-btn" onclick="goToDemo()">
+                Try Live Demo →
+            </button>
+
+            <a href="#how" class="secondary-btn">
+                How It Works
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <strong>QR</strong>
+                <small>Vehicle Identity</small>
+            </div>
+
+            <div>
+                <strong>01</strong>
+                <small>Smart Platform</small>
+            </div>
+
+            <div>
+                <strong>24/7</strong>
+                <small>Communication</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="circle-glow"></div>
+
+        <div class="car-card">
+
+            <div class="card-top">
+                <span class="online-dot">● ONLINE</span>
+                <span>AL-2048</span>
+            </div>
+
+            <div class="car-icon">
+                🚗
+            </div>
+
+            <h3>AutoLink Vehicle</h3>
+
+            <p>Smart communication enabled</p>
+
+            <div class="vehicle-line"></div>
+
+            <div class="vehicle-info">
+
+                <div>
+                    <span>OWNER</span>
+                    <strong>Protected</strong>
+                </div>
+
+                <div>
+                    <span>PHONE</span>
+                    <strong>Masked</strong>
+                </div>
+
+                <div>
+                    <span>QR</span>
+                    <strong>Active</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PLATFORM ================= -->
+
+<section class="section" id="app">
+
+    <div class="section-title">
+
+        <span>AUTOLINK PLATFORM</span>
+
+        <h2>
+            One Vehicle.
+            <strong>Two-Sided Communication.</strong>
+        </h2>
+
+        <p>
+            AutoLink connects vehicle owners and people around them
+            without unnecessarily exposing private contact information.
+        </p>
+
+    </div>
+
+
+    <div class="platform-grid">
+
+        <div class="platform-card owner-card">
+
+            <div class="platform-icon">
+                🚘
+            </div>
+
+            <span>FOR VEHICLE OWNERS</span>
+
+            <h3>
+                Register Your Vehicle
+            </h3>
+
+            <p>
+                Create your vehicle profile, add your information
+                and generate your AutoLink QR identity.
+            </p>
+
+            <a href="#owner-demo">
+                Owner Demo →
+            </a>
+
+        </div>
+
+
+        <div class="platform-card scanner-card">
+
+            <div class="platform-icon">
+                📱
+            </div>
+
+            <span>FOR OTHER USERS</span>
+
+            <h3>
+                Scan & Contact
+            </h3>
+
+            <p>
+                Scan a vehicle QR code, select a reason and send
+                a masked message to the owner.
+            </p>
+
+            <a href="#scanner-demo">
+                Scanner Demo →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="section dark-section" id="features">
+
+    <div class="section-title">
+
+        <span>KEY FEATURES</span>
+
+        <h2>
+            Communication
+            <strong>Without Compromise.</strong>
+        </h2>
+
+    </div>
+
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+            <div class="feature-icon">▦</div>
+            <h3>Vehicle QR</h3>
+            <p>
+                Every registered vehicle receives a unique
+                AutoLink identity.
+            </p>
+        </div>
+
+
+        <div class="feature-card">
+            <div class="feature-icon">◉</div>
+            <h3>Masked Messaging</h3>
+            <p>
+                Communicate without directly exposing personal
+                phone numbers.
+            </p>
+        </div>
+
+
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Privacy First</h3>
+            <p>
+                Only necessary vehicle information is displayed
+                to the person scanning the QR.
+            </p>
+        </div>
+
+
+        <div class="feature-card">
+            <div class="feature-icon">🅿️</div>
+            <h3>Parking Communication</h3>
+            <p>
+                Quickly inform a vehicle owner about parking
+                or blocking issues.
+            </p>
+        </div>
+
+
+        <div class="feature-card">
+            <div class="feature-icon">🚨</div>
+            <h3>Emergency Contact</h3>
+            <p>
+                Provide a fast communication channel when
+                urgent vehicle-related situations occur.
+            </p>
+        </div>
+
+
+        <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Anti-Prank Protection</h3>
+            <p>
+                Designed with verification and controlled
+                communication in mind.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= LIVE DEMO ================= -->
+
+<section class="section demo-section" id="demo">
+
+    <div class="section-title">
+
+        <span>INTERACTIVE PROTOTYPE</span>
+
+        <h2>
+            Experience
+            <strong>AutoLink.</strong>
+        </h2>
+
+        <p>
+            Choose how you want to experience the platform.
+        </p>
+
+    </div>
+
+
+    <div class="demo-selector">
+
+        <button
+            id="ownerTab"
+            class="demo-tab active"
+            onclick="showDemo('owner')"
+        >
+            🚘 Vehicle Owner Demo
+        </button>
+
+        <button
+            id="scannerTab"
+            class="demo-tab"
+            onclick="showDemo('scanner')"
+        >
+            📱 QR Scanner Demo
+        </button>
+
+    </div>
+
+
+    <!-- ================= OWNER DEMO ================= -->
+
+    <div class="demo-container" id="owner-demo">
+
+        <div class="demo-heading">
+
+            <div>
+                <span>DEMO 01</span>
+                <h2>Vehicle Owner</h2>
+
+                <p>
+                    Register your vehicle and create your
+                    AutoLink identity.
+                </p>
+            </div>
+
+            <div class="demo-number">
+                01
+            </div>
+
+        </div>
+
+
+        <div class="owner-demo-grid">
+
+            <!-- FORM -->
+
+            <div class="form-card">
+
+                <h3>Register Vehicle</h3>
+
+                <div class="input-group">
+                    <label>Owner Name</label>
+                    <input
+                        type="text"
+                        id="ownerName"
+                        placeholder="Enter owner name"
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label>Vehicle Number</label>
+                    <input
+                        type="text"
+                        id="vehicleNumber"
+                        placeholder="e.g. PB10AB1234"
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label>Vehicle Model</label>
+                    <input
+                        type="text"
+                        id="vehicleModel"
+                        placeholder="e.g. Hyundai Creta"
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <input
+                        type="tel"
+                        id="ownerPhone"
+                        placeholder="Enter phone number"
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input
+                        type="email"
+                        id="ownerEmail"
+                        placeholder="Enter email"
+                    >
+                </div>
+
+
+                <button
+                    class="primary-btn full-btn"
+                    onclick="registerVehicle()"
+                >
+                    Generate AutoLink QR
+                </button>
+
+            </div>
+
+
+            <!-- GENERATED VEHICLE -->
+
+            <div class="vehicle-profile">
+
+                <div class="profile-header">
+
+                    <div>
+                        <span>VEHICLE PROFILE</span>
+                        <h3 id="profileVehicle">
+                            Your Vehicle
+                        </h3>
+                    </div>
+
+                    <div class="verified">
+                        ✓ VERIFIED
+                    </div>
+
+                </div>
+
+
+                <div class="qr-area">
+
+                    <div class="fake-qr">
+
+                        <div class="qr-pattern">
+                            ▦
+                        </div>
+
+                    </div>
+
+                    <p>
+                        AutoLink QR Identity
+                    </p>
+
+                    <small>
+                        Scan this QR to communicate with the owner
+                    </small>
+
+                </div>
+
+
+                <div class="profile-details">
+
+                    <div>
+                        <span>OWNER</span>
+                        <strong id="profileOwner">
+                            Not registered
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>VEHICLE NO.</span>
+                        <strong id="profileNumber">
+                            —
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>MODEL</span>
+                        <strong id="profileModel">
+                            —
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>PHONE</span>
+                        <strong id="profilePhone">
+                            Protected
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="profile-status">
+                    <span>●</span>
+                    AutoLink communication active
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SCANNER DEMO ================= -->
+
+    <div
+        class="demo-container hidden-demo"
+        id="scanner-demo"
+    >
+
+        <div class="demo-heading">
+
+            <div>
+                <span>DEMO 02</span>
+
+                <h2>
+                    Scan Vehicle QR
+                </h2>
+
+                <p>
+                    A person scans the vehicle QR and sends
+                    a masked message.
+                </p>
+
+            </div>
+
+            <div class="demo-number">
+                02
+            </div>
+
+        </div>
+
+
+        <div class="scanner-demo-grid">
+
+            <!-- SCANNER -->
+
+            <div class="scanner-card-large">
+
+                <div class="scanner-frame">
+
+                    <div class="corner top-left"></div>
+                    <div class="corner top-right"></div>
+                    <div class="corner bottom-left"></div>
+                    <div class="corner bottom-right"></div>
+
+                    <div class="scan-line"></div>
+
+                    <div class="scan-icon">
+                        ▦
+                    </div>
+
+                </div>
+
+                <h3>
+                    AutoLink QR Scanner
+                </h3>
+
+                <p id="scanStatus">
+                    Ready to scan vehicle QR
+                </p>
+
+                <button
+                    class="primary-btn"
+                    onclick="scanVehicle()"
+                >
+                    Scan Demo QR
+                </button>
+
+            </div>
+
+
+            <!-- VEHICLE INFO -->
+
+            <div class="scanned-info">
+
+                <div class="scan-success">
+                    ✓ VEHICLE FOUND
+                </div>
+
+                <h3>
+                    Vehicle Information
+                </h3>
+
+                <div class="scanned-vehicle">
+
+                    <div class="mini-car">
+                        🚗
+                    </div>
+
+                    <div>
+                        <strong id="scannedModel">
+                            Hyundai Creta
+                        </strong>
+
+                        <small id="scannedNumber">
+                            PB10AB1234
+                        </small>
+                    </div>
+
+                </div>
+
+
+                <div class="privacy-box">
+
+                    <span>🔒</span>
+
+                    <div>
+                        <strong>Owner Privacy Protected</strong>
+
+                        <p>
+                            The owner's private phone number
+                            is hidden.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <h4>
+                    Why are you contacting this vehicle?
+                </h4>
+
+                <select id="messageReason">
+
+                    <option value="Parking issue">
+                        Parking issue
+                    </option>
+
+                    <option value="Vehicle blocking">
+                        Vehicle blocking
+                    </option>
+
+                    <option value="Emergency">
+                        Emergency
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <textarea
+                    id="maskedMessage"
+                    placeholder="Write your message..."
+                ></textarea>
+
+
+                <button
+                    class="primary-btn full-btn"
+                    onclick="sendMaskedMessage()"
+                >
+                    Send Masked Message
+                </button>
+
+
+                <div
+                    class="message-result"
+                    id="messageResult"
+                >
+                    Your identity and the owner's phone number
+                    remain protected in this demo.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="demo-disclaimer">
+
+        <strong>Prototype Demo:</strong>
+
+        This website demonstrates the AutoLink concept.
+        No real QR scanning, calls, SMS, GPS tracking or
+        personal information sharing takes place.
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="section" id="how">
+
+    <div class="section-title">
+
+        <span>HOW AUTOLINK WORKS</span>
+
+        <h2>
+            From QR Scan
+            <strong>To Safe Communication.</strong>
+        </h2>
+
+    </div>
+
+
+    <div class="steps">
+
+        <div class="step">
+
+            <div class="step-number">
+                01
+            </div>
+
+            <div>
+                <h3>
+                    Register Vehicle
+                </h3>
+
+                <p>
+                    The owner creates a vehicle profile
+                    inside AutoLink.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">
+                02
+            </div>
+
+            <div>
+                <h3>
+                    Generate QR
+                </h3>
+
+                <p>
+                    AutoLink generates a unique QR identity
+                    for the vehicle.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">
+                03
+            </div>
+
+            <div>
+                <h3>
+                    Scan QR
+                </h3>
+
+                <p>
+                    Another person scans the QR using
+                    the AutoLink platform.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">
+                04
+            </div>
+
+            <div>
+                <h3>
+                    Send Masked Message
+                </h3>
+
+                <p>
+                    The person can communicate without
+                    directly exposing private contact details.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="about-grid">
+
+        <div>
+
+            <span>ABOUT AUTOLINK</span>
+
+            <h2>
+                Making Vehicle
+                <strong>Communication Smarter.</strong>
+            </h2>
+
+        </div>
+
+        <div>
+
+            <p>
+                AutoLink is a smart vehicle communication concept
+                designed to solve everyday problems such as blocked
+                vehicles, parking issues and urgent communication.
+            </p>
+
+            <p>
+                Instead of exposing a vehicle owner's personal
+                phone number, AutoLink creates a controlled
+                communication layer between the two people.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="vision-box">
+
+        <div>
+            <span>OUR VISION</span>
+
+            <h3>
+                Every vehicle should have a simple,
+                secure and smart way to communicate.
+            </h3>
+        </div>
+
+        <div class="vision-symbol">
+            ◉
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        <span>◉</span> AutoLink
+    </div>
+
+    <p>
+        Smart Vehicle Communication Platform
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#how">How It Works</a>
+
+    </div>
+
+    <small>
+        © 2026 AutoLink • Prototype Project
+    </small>
+
+</footer>
+
+
+<!-- TOAST -->
+
+<div id="toast" class="toast">
+    Action completed.
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
